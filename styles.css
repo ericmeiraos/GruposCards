@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('img/ceu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 15rem;
+}
+
+.child {
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.child:hover {
+    transform: scale(1.1); 
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+small {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+sub {
+    display: block;
+    margin-top: 10px; 
+}
+
+.user-image {
+    max-width: 100%;
+}
+
+.title-luffy {
+    color: blue; 
+}
+
+.title-goku {
+    color: red; 
+}
+
+.title-tanjiro {
+    color: green; 
+}
+
+.title-naruto {
+    color: yellow; 
+}
